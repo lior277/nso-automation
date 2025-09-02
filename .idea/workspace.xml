@@ -4,56 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1d2c7d75-44a2-4129-9b3c-05ff36db6813" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.env" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/nso-automation.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pytest.ini" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/api/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/api/clients/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/api/clients/auth_client.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/api/clients/base_client.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/api/clients/users_client.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/api/models/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/api/models/user_models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/api/services/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/api/services/auth_service.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/api/services/users_service.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/api/validators/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/api/validators/json_schema.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/api/validators/pyd_models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/core/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/core/config.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/core/http_client.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/db/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/db/sqlite.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/factories/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/factories/auth_factory.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/factories/users_factory.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/repositories/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/repositories/users_repo.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/utils/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/utils/randoms.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/utils/time.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/api/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/api/auth/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/api/auth/test_login.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/api/integration/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/api/integration/test_users_db_consistency.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/api/users/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/api/users/test_users_contract.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/api/users/test_users_smoke.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/conftest.py" afterDir="false" />
+    <list default="true" id="1d2c7d75-44a2-4129-9b3c-05ff36db6813" name="Changes" comment="fix">
+      <change beforePath="$PROJECT_DIR$/src/api/services/users_service.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/api/services/users_service.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/api/validators/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/api/validators/json_schema.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/api/validators/pyd_models.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/api/integration/test_users_db_consistency.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/api/integration/test_users_db_consistency.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/api/users/test_users_contract.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/api/users/test_users_contract.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/api/users/test_users_smoke.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/api/users/test_users_smoke.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,6 +28,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "lior277"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/lior277/nso-automation.git",
+    "accountId": "5f82f56d-fd63-447a-9d57-3bf1cbf5f993"
+  }
+}]]></component>
   <component name="ProjectColorInfo"><![CDATA[{
   "associatedIndex": 8
 }]]></component>
@@ -90,6 +60,7 @@
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.git.unshallow": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "SONARLINT_PRECOMMIT_ANALYSIS": "true",
     "git-widget-placeholder": "master",
     "ignore.virus.scanning.warn.message": "true",
     "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
@@ -115,6 +86,19 @@
       <option name="presentableId" value="Default" />
       <updated>1756736518857</updated>
     </task>
+    <task id="LOCAL-00001" summary="fix">
+      <option name="closed" value="true" />
+      <created>1756799553744</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1756799553744</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="fix" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix" />
   </component>
 </project>

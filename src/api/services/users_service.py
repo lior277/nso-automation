@@ -1,17 +1,18 @@
 from src.api.clients.users_client import UsersClient
+from src.api.models.user_models import User, UsersResponse
 
 class UsersService:
     def __init__(self, client: UsersClient | None = None):
         self.client = client or UsersClient()
 
-    def list_page_emails(self, page: int = 1) -> list[str]:
-        r = self.client.list_users(page)
-        r.raise_for_status()
-        return [u["email"] for u in r.json().get("data", [])]
+    def list_page_emails(self, limit: int = 10, skip: int = 0) -> list[str]:
+        users_response: UsersResponse = self.client.list_users(limit=limit, skip=skip)
+        return [str(u.email) for u in users_response.users if u.email]
 
     def get_user_email(self, user_id: int) -> str | None:
-        r = self.client.get_user(user_id)
-        if r.status_code == 404:
+        try:
+            user: User = self.client.get_user(user_id)
+            return user.email
+        except Exception:
+            # if request fails (e.g. 404), return None
             return None
-        r.raise_for_status()
-        return r.json().get("data", {}).get("email")
